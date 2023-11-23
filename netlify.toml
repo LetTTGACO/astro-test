@@ -1,0 +1,5 @@
+[build.environment]
+NPM_FLAGS="--prefix=/"
+[build]
+command = "pnpm install --no-frozen-lockfile && pnpm run build"
+
